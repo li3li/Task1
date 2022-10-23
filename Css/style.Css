@@ -1,0 +1,1413 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.container{
+   width: 80%;
+   margin: auto;
+}
+
+body{
+
+   
+/*    
+    background: rgb(220, 250, 240) url(../images/Pink-Blue-Blured-Texture-1024x576.jpg) fixed no-repeat ;
+    background-size: cover; */
+    /* font-family: 'Roboto', sans-serif; */
+
+}
+/* .imghead{
+    width: 1350px;
+     height: 400px; } */
+     .tit1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        font-style: italic;
+        font-weight:bold;
+        
+        
+
+     }
+  
+   .titn{ margin-top: 100px;
+      text-align: center;
+
+   }
+   .ptitn{width: 90px;
+      height: 3px;
+      background-color: rgb(138, 138, 243);
+      
+      margin: auto;
+      margin-top: 10px;
+    
+
+   }
+     /* ----------------header---------------------- */
+     .head1{
+      font-family:mulish;
+        width:100%;
+        height: 60px;
+        background-color: rgb(135, 139, 163);
+        overflow: auto;
+        position: fixed;
+        top:0px;
+        left: 0;
+        /* right: 0; */
+        opacity: 0.7;
+        z-index: 1;
+        
+     
+     }
+     .imglog{
+      width: 100px;
+      height: 60px;
+      top:0px;
+      left: 0px;
+      float: left;
+      margin-left: 80px; 
+      
+     }
+.ul1{
+   list-style: none;
+ float: right;
+ margin-right: 50px;
+ margin-top: 20px;
+}
+.ul1 li{
+   display: inline;
+  margin-left: 25px;
+
+  
+   
+}
+.ul1 li a{
+   text-decoration: none;
+   color: white;
+}
+.ul1 li a:hover{
+   text-decoration: underline;
+   color: blue;
+   
+}
+.tit1{
+ 
+ margin-top: 100px;
+ text-align: center;
+
+}
+
+
+.ptit{
+   width: 90px;
+   height: 3px;
+   background-color: rgb(138, 138, 243);
+   
+   margin: auto;
+   margin-top: 10px;
+
+   
+}
+
+/* --------------------section 1 home *------------------------/
+/* home div */
+.home{
+   height: 100vh;
+   background-image:url(../images/pexels-tbee-82256.jpg);
+   background-repeat: no-repeat;
+   background-position: cover;
+   position: relative;
+   /* z-index: 1; */
+}
+.overlay{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   height: 100%;
+   background-color: rgb(36, 35, 35);
+   opacity: 0.5;
+
+   /* z-index: 1; */
+   
+  
+}
+.home-content{
+   width: 65%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+
+}
+.tithome{
+
+   font-size: 55PX;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+ /* margin-top: 40px; */
+ text-align: center;
+ color: rgb(166, 230, 247);
+}
+.phome{
+   font-size: 20PX;
+   font-family:Arial, Helvetica, sans-serif;
+   /* margin-top: -1px; */
+   margin-bottom: 15px;
+   color:rgb(166, 230, 247);
+   text-align: center;
+}
+
+.btnhome1,.btnhome2{
+   width: 150px;
+   padding: 20px;
+   border: none;
+   border-radius: 5px;
+  
+   font-size: 18px;
+
+}
+.btnhome2{ 
+   color: white;
+   background-color: rgb(120, 120, 248);
+  
+}
+.btnhome1{ 
+margin-right: 18px;
+  
+}
+
+/* Welcome To Website */
+.wel{
+ 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 30px;
+   font-style: italic;
+   font-weight:bold;
+   margin-top: 100px;
+   text-align: center;
+  
+  }
+  
+  
+  .pwel{
+     width: 90px;
+     height: 3px;
+     background-color: rgb(138, 138, 243);
+     
+     margin: auto;
+     margin-top: 10px;
+  
+     
+  }
+/* parent welcom */
+.welcomeparent{
+   overflow: auto;
+}
+
+  /* welcome div */
+  .welcome,.welcome1,.welcome2{
+   width: 300px;
+   height: 220px;
+   border:  solid rgb(170, 168, 168);
+
+   float: left;
+   margin-top: 50px;
+   margin-left: 100px;
+   position: relative;
+ 
+  }
+
+.welcome::after{
+  
+   position: absolute;
+   content: "";
+   width: 0%;
+   height: 0%;
+   top: 0px;
+   left: 0px;
+  
+}
+.welcome:hover::after{
+   width: 100%;
+   height: 100%;
+   background-color:  rgb(159, 157, 199);
+   transition: 1s;
+   opacity: 0.7;
+
+ 
+}
+.welcome:hover .weltit{
+   color: blue;
+   transition: 2s;
+  
+}
+.welcome:hover .welcon{
+   color: blue;
+   transition: 2s;
+}
+.welcome1:hover .welcon1{
+   color: blue;
+   transition: 2s;
+}
+.welcome2:hover .welcon2{
+   color: blue;
+   transition: 2s;
+}
+
+
+
+.welcome1::after{
+  
+   position: absolute;
+   content: "";
+   width: 0%;
+   height: 0%;
+   top: 0px;
+   left: 0px;
+  
+}
+.welcome1:hover::after{
+   width: 100%;
+   height: 100%;
+   background-color:  rgb(159, 157, 199);
+   transition: 1s;
+   opacity: 0.7;
+
+ 
+}
+.welcome1:hover .weltit1{
+   color: blue;
+   transition: 2s;
+  
+}
+
+
+.welcome2::after{
+  
+   position: absolute;
+   content: "";
+   width: 0%;
+   height: 0%;
+   top: 0px;
+   left: 0px;
+  
+}
+.welcome2:hover::after{
+   width: 100%;
+   height: 100%;
+   background-color:  rgb(159, 157, 199);
+   transition: 1s;
+   opacity: 0.7;
+
+ 
+}
+.welcome2:hover .weltit2{
+   color: blue;
+   transition: 2s;
+  
+}
+   
+/* sitting icon  */
+.st,.mg,.mob{
+   font-size: 30px;
+   color: rgb(138, 138, 243);
+ display: block;
+padding-left: 130px;
+padding-top: 30px
+}
+
+.weltit,.weltit1,.weltit2{
+   text-align: center;
+   margin-top: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25;
+}
+.welcon,.welcon1,.welcon2{
+   text-align: center;
+
+   font-size: 18px;
+ 
+   color: gray;
+   line-height: 1.5;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.wa,.wa1,.wa2{
+padding-left: 100px;
+
+   text-decoration: none;
+   font-size: 20px;
+
+}
+/* ---------------------------------------------------------------- */
+/* <!--Featured Works  --> */
+.feat-ground{
+   height: 100vh;
+   width: 100%;
+   background-color: rgb(206, 206, 218);
+}
+.feat-parent{
+  
+   overflow: auto;
+   /* height: 100vh;
+   background-color: aquamarine; */
+
+}
+.feat-all{
+   float: left;
+   /* background-color: rgb(138, 138, 243); */
+   width: 25%;
+
+padding: 20px 15px;
+text-align: center;
+position: relative;
+
+}
+/* 
+.feat-img{
+   
+
+} */
+.feat-img img{
+   width: 100%;
+   height: 200px;
+   margin: auto;
+}
+
+.fta{
+  margin: 0px 6%;
+}
+
+.feat-tex{
+   /* widows: 90%; */
+position: absolute;
+top: 0px;
+left: 0px;
+bottom: 0px;
+right: 0px;
+background-color:rgba(0, 0, 0, 0.5);
+visibility: hidden;
+opacity: 0;
+/* transition: 1s; */
+padding-top: 70px;
+
+}
+
+
+.feat-all:hover .feat-tex {
+   visibility: visible;
+   opacity: 1;
+   transition: 2s;
+
+
+}
+
+.feat-tex .feattxt1{
+   text-transform: uppercase;
+   color: blue;
+   font-size: 23px;
+}
+
+.feat-tex .feattxt2{
+   text-transform:capitalize;
+   color:white;
+   font-size: 23px;
+   line-height: 40px
+
+}
+
+.feat-tex a{
+   color: white;
+   background-color:blueviolet;
+
+  
+}
+
+.feat-tex a i{
+   font-size: 30px;
+   background-color:blueviolet;
+}
+
+/* --------------------------------------------------------------- */
+/* What We Offer */
+.titoff{
+ 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 30px;
+   font-style: italic;
+   font-weight:bold;
+   margin-top: 100px;
+   text-align: center;
+  
+  }
+  
+  
+  .poff{
+     width: 90px;
+     height: 3px;
+     background-color: rgb(138, 138, 243);
+     
+     margin: auto;
+     margin-top: 10px;
+  
+     
+  }
+/* parent offer */
+.offerparent{
+   overflow: auto;
+}
+
+  /* offer div */
+  .offer,.offer1,.offer2,.offer3,.offer4,.offer5{
+   width: 300px;
+   height: 180px;
+   border:  solid rgb(170, 168, 168);
+
+   float: left;
+   margin-top: 50px;
+   margin-left: 70px;
+   position: relative;
+ 
+  }
+
+  
+.offer::after{
+  
+   position: absolute;
+   content: "";
+   width: 0%;
+   height: 0%;
+   top: 0px;
+   left: 0px;
+  
+}
+.offer:hover::after{
+   width: 100%;
+   height: 100%;
+   background-color:  rgb(159, 157, 199);
+   transition: 1s;
+   opacity: 0.7;
+
+ 
+}
+.offer:hover .offltit{
+   color: blue;
+   transition: 2s;
+  
+}
+.offer:hover .offlcon{ color: blue;
+   transition: 2s;}
+   .offer1:hover .offlcon1{ color: blue;
+      transition: 2s;}
+      .offer2:hover .offlcon2{ color: blue;
+         transition: 2s;}
+         .offer3:hover .offlcon3{ color: blue;
+            transition: 2s;}
+            .offer4:hover .offlcon4{ color: blue;
+               transition: 2s;}
+               .offer5:hover .offlcon5{ color: blue;
+                  transition: 2s;}
+                  
+
+
+.offer1::after{
+  
+   position: absolute;
+   content: "";
+   width: 0%;
+   height: 0%;
+   top: 0px;
+   left: 0px;
+  
+}
+.offer1:hover::after{
+   width: 100%;
+   height: 100%;
+   background-color:  rgb(159, 157, 199);
+   transition: 1s;
+   opacity: 0.7;
+
+ 
+}
+.offer1:hover .offltit1{
+   color: blue;
+   transition: 2s;
+  
+}
+
+
+.offer2::after{
+  
+   position: absolute;
+   content: "";
+   width: 0%;
+   height: 0%;
+   top: 0px;
+   left: 0px;
+  
+}
+.offer2:hover::after{
+   width: 100%;
+   height: 100%;
+   background-color:  rgb(159, 157, 199);
+   transition: 1s;
+   opacity: 0.7;
+
+ 
+}
+.offer2:hover .offltit2{
+   color: blue;
+   transition: 2s;
+  
+}
+
+
+.offer3::after{
+  
+   position: absolute;
+   content: "";
+   width: 0%;
+   height: 0%;
+   top: 0px;
+   left: 0px;
+  
+}
+.offer3:hover::after{
+   width: 100%;
+   height: 100%;
+   background-color:  rgb(159, 157, 199);
+   transition: 1s;
+   opacity: 0.7;
+
+ 
+}
+.offer3:hover .offltit3{
+   color: blue;
+   transition: 2s;
+  
+}
+
+.offer4::after{
+  
+   position: absolute;
+   content: "";
+   width: 0%;
+   height: 0%;
+   top: 0px;
+   left: 0px;
+  
+}
+.offer4:hover::after{
+   width: 100%;
+   height: 100%;
+   background-color:  rgb(159, 157, 199);
+   transition: 1s;
+   opacity: 0.7;
+
+ 
+}
+.offer4:hover .offltit4{
+   color: blue;
+   transition: 2s;
+  
+}
+  /* sitting icon  */
+.gew,.pl,.sett{
+   font-size: 30px;
+   color: rgb(138, 138, 243);
+ /* display: block; */
+ padding-left: 30px;
+ padding-top: 30px;
+}
+
+.offer5::after{
+  
+   position: absolute;
+   content: "";
+   width: 0%;
+   height: 0%;
+   top: 0px;
+   left: 0px;
+  
+}
+.offer5:hover::after{
+   width: 100%;
+   height: 100%;
+   background-color:  rgb(159, 157, 199);
+   transition: 1s;
+   opacity: 0.7;
+
+ 
+}
+.offer5:hover .offltit5{
+   color: blue;
+   transition: 2s;
+  
+}
+
+.offltit,.offltit1,.offltit2,.offltit3,.offltit4,.offltit5{
+   text-align: center;
+   margin-top: 5px;
+   display: inline;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 25;
+   padding-left: 20px;
+
+}
+.offlcon,.offlcon1,.offlcon2,.offlcon3,.offlcon4,.offlcon5{
+   text-align: center;
+   margin-top: 20px;
+
+   font-size: 18px;
+ 
+   color: gray;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   line-height: 1.5;
+}
+.offer3,.offer4,.offer5{
+   margin-top: 15px;
+}
+.lolo{
+   height: 500px;
+   
+}
+
+/* ------------------------------------------------- */
+/* ----------------------Why Choose Us---------------- */
+.titwhy{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 30px;
+   /* font-style: italic; */
+   font-weight:bold;
+}
+.ptwhy{
+   width: 60px;
+      height: 3px;
+      background-color: rgb(138, 138, 243);
+     
+      
+      /* margin: auto; */
+      margin-top: 10px;
+}
+.why-parent{
+   overflow: auto;
+
+}
+.why-text{
+float: left;
+width: 50%;
+padding-top: -50px;
+}
+.p-why{
+   font-size: 20px;
+}
+.why-img{width: 350px;
+   height: 300px;
+   float: left;
+padding-top: -50px;
+   /* margin-left: 70px; */
+  padding-left: 100px;
+
+}
+.why-ul {
+   list-style: none;
+   line-height: 30px;
+
+}
+.whu-img-ul li{
+   display:inline-block;
+width: 10px;
+height: 10px;
+background-color: rgb(99, 94, 94);
+border-radius: 50%;
+
+}
+.whu-img-ul .lili{
+   margin: 0px 10px;
+}
+   .whu-img-ul{
+    margin-top: 300px;
+    margin-left: 750px;
+   }
+
+.why-ul li i{
+   color: blueviolet;
+   border: 1px blueviolet solid;
+   border-radius: 50%;
+  
+}
+.whu-img-ul li:hover{
+   background-color: blueviolet;
+}
+.whu-img-ul .li1{
+   background-color: blueviolet;
+}
+
+
+/* ------------------------photo rate----------------------------- */
+.parent-rate{
+   position: relative;
+   
+ 
+
+}
+.photo-rate{
+
+   background-image: url(../images/which-web-design-platform-is-right-for-you-5e4d59fb941b9-1520x800-1.png);
+   height: 350px;
+   background-attachment: fixed;
+   background-size: cover;
+ 
+   overflow: auto;
+
+}
+.overlay{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+background-color: black;
+opacity: 0.7;
+
+}
+.iqon-rate{
+ float: left;
+ padding: 150px 70px;
+ text-align: center;
+ font-size: 30px;
+ color: white;
+
+
+}
+.iqon-rate i{
+  color: rgb(137, 135, 209);
+
+
+
+
+}
+.iqon-rate span{
+   font-size: 18px;
+   
+  
+}
+.iqon-rate .tit-rate{
+   font-size: 32px;
+
+}
+/* ---------------section price---------------------------- */
+/*--------------------------- main div1------------------- */
+.ist {
+width: 300px;
+height: 350px;
+   border:  solid rgb(170, 168, 168);
+   /* border-radius: 20px; */
+   text-align: center;
+   float: left;
+   margin-left: 100px;
+   position: relative;
+    /* background-color: rgb(207, 235, 250);  */
+
+}
+.ist::after{
+ content: "";
+ position: absolute;
+ background-color:  rgb(159, 157, 199);
+ 
+ width: 100%;
+ height: 0%;
+ top :0;
+ left:0;
+ opacity: 0.7;
+ transition: 2s;
+
+
+}
+.ist:hover::after{
+   width: 100%;
+   height: 100%;
+}
+/* title istamul */
+.hist{
+   font-size: 30px;
+   font-weight: bold;
+   font-style: italic;
+   /* padding-top: -20px; */
+}
+/* div الدايرة */
+
+
+.divpric1{
+   width: 50px;
+   height: 30px;
+   border: 1px solid rgb(14, 14, 247); ;
+   border-radius:50% ;
+   margin: auto;
+margin-bottom: 20px;
+
+}
+/* price  */
+.isprice,.isprice1,.isprice2{
+   font-weight: bold;
+   font-size: 30px;
+   padding-top: 20px;
+   
+
+}
+.day1,.day2,day3 {  font-weight: bold;
+   font-size: 20px;
+/* margin-top: -20px;   */
+}
+.ist h5{
+   font-size: 15px;
+   margin-top: 10px;
+}
+.btn1 ,.btn2,.btn3{
+   width: 120px;
+   height: 30px;
+  border-color: rgb(113, 113, 248);;
+  background-color:rgb(200, 206, 216)
+  
+   
+}
+
+/* --------------------dive 2------------------------------------- */
+
+/* main div */
+.paris{
+   width: 300px;
+   height: 350px;
+      border:  solid rgb(170, 168, 168);
+      /* border-radius: 20px; */
+      text-align: center; 
+      float: left;
+      margin-left: 100px;
+      position: relative;
+      
+      /* background-color: rgb(207, 235, 250); */
+   
+    }
+
+ .hist1 ,.isprice1 {
+   color: brown;
+ }
+ .paris::after{
+   content: "";
+   position: absolute;
+   background-color:  rgb(159, 157, 199);
+   width: 100%;
+   height: 0%;
+   top: 0;
+   left: 0;
+   transition: 2s;
+   opacity: 0.7;
+
+ }
+ .paris:hover::after{
+   width: 100%;
+   height: 100%;
+ }
+  
+   
+   /* title istamul */
+   .hist1{
+      font-size: 30px;
+      font-weight: bold;
+      font-style: italic;
+      /* padding-top: -20px;  */
+    }
+   /* div الدايرة */
+   
+    .divpric1,  .divpric2,  .divpric3{
+      width: 100px;
+      height: 100px;
+      border: 1px solid rgb(14, 14, 247); ;
+      border-radius:50% ;
+      margin: auto;
+      
+   /* margin-top: -25px;  */
+   
+    } 
+      
+   /* price  */
+   /* .isprice1,.isprice2,.isprice3{
+      font-weight: bold;
+      font-size: 30px;
+      
+   margin-bottom: 40px;
+   } */
+   /* .day1{  font-weight: bold;
+      font-size: 20px;
+      margin-top: -40px;
+   } */
+   .ist h5,.paris h5,.maldives h5{
+      font-size: 15px;
+      margin-top: 10px;
+   } 
+   .btn1{
+      width: 120px;
+      height: 30px;
+     border-color: rgb(113, 113, 248);;
+      
+   } 
+
+
+   
+/* --------------------dive 3------------------------------------- */
+
+/* main div */
+ .maldives{
+   width: 300px;
+   height: 350px;
+      border:  solid rgb(170, 168, 168);
+      /* border-radius: 20px; */
+      text-align: center;
+      float: left;
+      margin-left: 100px;
+      position: relative;
+      /* background-color: rgb(207, 235, 250);  */
+   
+   }
+   .maldives::after{
+      content: "";
+      position: absolute;
+      background-color:  rgb(159, 157, 199);
+      width: 100%;
+      height: 0%;
+      top: 0;
+      left: 0;
+      opacity: 0.7;
+      transition: 2s;
+   }
+   .maldives:hover::after{
+      width: 100%;
+      height: 100%;
+   }
+ 
+    
+   /* title istamul */
+    .hist{
+      font-size: 30px;
+      font-weight: bold;
+      font-style: italic;
+      /* padding-top: -20px; */
+   } 
+   /* div الدايرة */
+   
+    .divpric1{
+      width: 100px;
+      height: 100px;
+      border: 1px solid rgb(14, 14, 247); ;
+      border-radius:50% ;
+      margin: auto;
+   /* margin-top: -25px; */
+   
+     
+      
+      
+   } 
+   /* price  */
+/* .isprice{
+      font-weight: bold;
+      font-size: 30px;
+      
+   margin-bottom: 40px;
+   } */
+   /* .day1{  font-weight: bold;
+      font-size: 20px;
+      margin-top: -40px;
+   } */
+   .ist h5{
+      font-size: 15px;
+      margin-top: 10px;
+   }
+   .btn1{
+      width: 120px;
+      height: 30px;
+     border-color: rgb(113, 113, 248);;
+      
+   } 
+   .parent{
+      overflow: auto;
+      /* position: relative; */
+   }
+/* ---------------------------------------------------------------------- */
+/* ---------------------photo section------------------------------------- */
+
+.photo-sec{
+   background-image: url(../images/istockphoto-1208854448-612x612.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+height: 300px;
+z-index: -1;
+
+}
+.parent-phto{
+   position: relative;
+   
+}
+.overlay_photo{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+background-color: black;
+opacity: 0.4;
+overflow: auto;
+z-index: 0;
+}
+
+.photo-tex{
+   float: left;
+   margin-top: 50px;
+   z-index: 5;
+}
+.photo-tex2{
+   float: left;
+   margin-left: 150px;
+   margin-top: 50px;
+
+}
+.photo-tex .photo_img{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   padding: 40px 10px;
+   text-align:center;
+ 
+
+   
+}
+
+.photo-tex2 .photo_img2{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   padding: 40px 10px;
+   text-align:center;
+
+}
+
+.photo-tex h3{
+   color: white;
+/* display: block; */
+margin-top: -100px;
+   margin-left: 100px;
+   text-transform: capitalize;
+   font-size: 30px;
+
+   
+
+}
+.photo-tex2 h3{
+   color: white;
+/* display: block; */
+margin-top: -100px;
+   margin-left: 100px;
+   text-transform: capitalize;
+   font-size: 30px;
+
+   
+
+}
+.photo-tex span{
+   color: rgb(12, 147, 236);
+   /* display: block; */
+   margin-top: -50px;
+      margin-left: 100px;
+    text-transform: capitalize;
+    font-size: 18px;
+
+}
+.photo-tex2 span{
+   color: rgb(12, 147, 236);
+   /* display: block; */
+   margin-top: -50px;
+      margin-left: 100px;
+    text-transform: capitalize;
+    font-size: 18px;
+
+}
+.photo-tex p{
+   color: white;
+   padding-left: 30px;
+
+}
+.photo-tex2 p{
+   color: white;
+   padding-left: 30px;
+}
+
+
+   /* ------------------------------------------------------------------------ */
+
+   /* ----------------section our team ------------------------*/
+
+
+
+   .team-parent{
+
+      overflow: auto;
+      
+   }
+ .team-all{
+   float: left;
+   background-color:  rgb(179, 177, 223);
+   width: 26%;
+   
+   text-align: center;
+   padding: 20px 15px;
+   position: relative;
+
+
+ }
+.lg{
+   margin: 0 5%;
+}
+.team-img{
+
+  width: 90%;
+   /* background-color: blue; */
+   margin: auto;
+   position: relative;
+ 
+
+
+}
+.team-img .timg{
+   width: 100%;
+
+   height: 250px;
+
+}
+.team-iqon{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   bottom: 0px;
+   right: 0px;
+background-color:rgba(0, 0, 0, 0.5);
+visibility: hidden;
+opacity: 0;
+
+
+}
+.team-all:hover .team-iqon{
+   visibility: visible;
+   opacity: 1;
+}
+.team-iqon a{
+   display: block;
+   width: 40px;
+   height: 40px;
+   background-color: rgb(129, 129, 179);
+   margin-left: auto;
+}
+.team-iqon a i{
+line-height: 40px;
+color: white;
+}
+.team-info{
+   text-transform: capitalize;
+}
+.team-name {
+   font-size: 35px;
+}
+.team-tit{
+font-size: 15px;
+color: gray;
+
+
+}
+.team-all::after{
+
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  background-color: gray;
+  opacity: 0;
+
+}
+.team-all:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.7;
+transition: 2s;
+
+}
+
+   .team-all:hover .team-name{
+      color: white;
+   transition: 1s;
+   }
+   .team-all:hover .team-tit{
+      color: white;
+      transition: 2s;
+   }
+
+   /* ------------------------------------------------------------------------------ */
+
+   /* ----------------section news ------------------------*/
+
+
+   .pic1{
+      width: 300px;
+      height: 350px;
+
+   }
+   .man1 ,.clock1,.chat1{
+      color: blue;
+      font-size: 13px;
+   }
+   .man1 span ,.clock1 span ,.chat1 span{
+      color: black;
+      
+      font-size: 13px;
+     
+      
+   }
+   .man1 , .clock1,.chat1{
+      margin-left: 20px;
+
+   }
+   .tit4{ margin-left: 20px;}
+   .p1{
+      color: gray;
+      margin-left: 20px;
+     
+   }
+   .news{
+      float: left;
+      margin-left: 100px;
+      position: relative;
+   
+   }
+   .news::after{
+      content: "";
+      position: absolute;
+      background-color:  rgb(159, 157, 199);
+      width: 100%;
+      height: 0%;
+      bottom: 0;
+      left: 0;
+      opacity: 0.7;
+      transition: 2s;
+   }
+   .news:hover::after{
+      width: 100%;
+      height: 100%;
+   }
+   .news2{
+      float: left;
+      margin-left: 100px;
+      position: relative;
+      
+   }
+   .news2::after{
+      content: "";
+      position:absolute;
+      background-color: rgb(159, 157, 199);
+      width: 100%;
+      height: 0%;
+      bottom: 0;
+      left: 0;
+      opacity: 0.7;
+      transition: 2s;
+   }
+   .news2:hover::after{
+      width: 100%;
+      height: 100%;
+   }
+   .news3{
+      float: left;
+      margin-left: 100px;
+      position: relative;
+     
+   }
+   .news3::after{
+      content: "";
+      position: absolute;
+      background-color: rgb(159, 157, 199);
+      width: 100%;
+      height: 0%;
+      bottom: 0;
+      left: 0;
+      opacity: 0.7;
+      transition: 2s;
+   }
+   .news3:hover::after{
+      width: 100%;
+      height: 100%;
+   }
+   .r{margin-left: 20px;
+   color: rgb(70, 70, 245);
+   text-decoration: none;
+}
+.r a {  text-decoration: none;}
+ .parent2{
+   overflow: auto;
+ }
+
+
+
+
+
+
+
+
+ /* ------------footer----------------------- */
+ .fotter{
+   background-color:rgb(173, 169, 169) ;
+   height: 300px;
+   position: relative;
+
+
+ }
+ .foot-all{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   margin: auto;
+
+ }
+ 
+ .foot-img{
+   height: 100px;
+   /* width: 65%; */
+   
+  
+ 
+ }
+ .foot-ul  li{
+   display: inline;
+ 
+
+ }
+ .foot-ul  li a i{
+color:white;
+font-size: 30px;
+border:10px solid rgb(147, 165, 247);
+background-color: rgb(147, 165, 247);
+border-radius: 50%;
+ 
+
+ }
+ .foot_copy{
+   color: white;
+   font-size: 11px;
+
+   
+ }
+ .foot-ul  li a i:hover{
+   border:10px solid rgb(65, 65, 255);
+   background-color:rgb(65, 65, 255);
+ }
